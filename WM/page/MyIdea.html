@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>我的意见</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,user-scalable=no"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<script language="JavaScript">
+function www_zzjs_net(field, countfield, maxlimit) {
+if (field.value.length > maxlimit)
+field.value = field.value.substring(0,maxlimit);
+else
+countfield.value = maxlimit - field.value.length;
+}
+</script>
+<header><a href="javascript:history.back();" class="glyphicon glyphicon-arrow-left" title="后退"></a>
+  <h1 class="h4">我的意见</h1>
+</header>
+<div class="container">
+
+	<div class="row fh5co-feature">
+	     <div class="col-xs-12">
+		<!-- 		<form role="form" class="form-group relative">
+				    <div class="form-group">
+				    <textarea type="text" class="control-two" id="name" placeholder="请输入您的意见"></textarea>
+				    </div>  
+				</form> -->
+
+				<form name="form"  action="" method="post" >
+						<textarea class="editbox2 control-two" placeholder="请输入您的意见" onkeydown="www_zzjs_net(this.form.memo,this.form.remLen,100)" onkeyup="www_zzjs_net(this.form.memo,this.form.remLen,100)" name="memo" cols="45" rows="8" wrap="on"></textarea>
+							<div class="idea-center"><br>共可输入100字，还剩<input class="editbox1" readOnly maxLength="3" size="3" value="100" name="remLen">字。<br></div>
+							<div class="idea-center2"><input class="bottom" type="submit" value=" 提交 " name="submit">
+							<input class="bottom" type="reset" value=" 重置 " name="reset">
+							</div>
+						
+				</form>
+
+		</div>
+	</div>
+
+
+	<div class="idea">
+		<!-- <img src="images/yijian.png" alt=""> -->
+		<div class="idea-sty"></div>
+		<div class="idea-sty"></div>
+		<div class="idea-sty"></div>
+	</div>
+	
+
+
+	<div class="idea-add">
+		<button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-plus"></span>
+    	</button>
+
+    	<p class="">点我添加图片</p>
+
+	</div>
+
+
+	 <div class="idea-center">
+	 <div class="wm-btn"><button  class="wm-btn" type="button">提交</button></div>
+	 </div>	
+	
+			
+</div>
+     
+</body>
+</html>

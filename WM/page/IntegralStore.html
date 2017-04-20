@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>积分商城</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,user-scalable=no"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+</head>
+<body>
+<header><a href="javascript:history.back();" class="glyphicon glyphicon-arrow-left" title="后退"></a>
+  <h1 class="h4">积分商城</h1>
+</header>
+<script>
+	window.onload = function(){
+		var divs = document.getElementsByTagName("div");
+		var len = divs.length;
+		for(var i=0;i<len;i++){
+			divs[i].onclick = function(){
+				for(var j=0;j<len;j++){
+					divs[j].style.backgroundColor = "black";
+				}
+				this.style.backgroundColor = "red";
+			};
+		}
+	};
+</script>
+
+<!-- <div class="scrollable">
+ <div class="scrollable-footer redpacket-footer">
+        <div class="container">
+            <div class="row">
+                <div class="pull-left border-r-1">
+                    <div class="footer-bt font-size-14" ng-class="{active:tab==1}" ng-click="gotoTab(1)">
+                        训练课程
+                        <span class="icon-up" ng-if="tab==1">
+                            <i class="fa fa-sort-asc" ></i>
+                        </span>
+                </div>
+                    </div>
+                <div class="pull-right">
+                    <div class="footer-bt font-size-14"  ng-class="{active:tab==2}" ng-click="gotoTab(2)">
+                        各类礼品
+                        <span class="icon-up" ng-if="tab==2">
+                            <i class="fa fa-sort-asc" ></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>  
+</div>   -->
+
+	<div>
+		<div class="store-footer">
+			<a href="MakeLesson.html" class="footer-left">训练课程</a>
+			<a href="" class="footer-right">各类礼品</a>
+		</div>
+	</div>
+
+
+
+<!-- 训练课程 -->
+<div class="container" id="tab1">
+	<div class="row fh5co-feature gag-two">
+		<div class="col-xs-12">亲耐滴会员，您目前积分剩余：789</div>
+		<hr>
+	</div>
+	<div class="row fh5co-feature">
+	                <div class="col-xs-4 wm-card">
+							<figure class="fh5co-figure">
+								<img class="img-1 img-thumbnail" src="images/weimi.png" alt="">	
+							</figure>
+					</div>
+	                <div class="col-xs-6 text-sty">
+	                <h5 class="pact-text">去皮脂训练<br><small>减少皮脂，增强耐力<br>肌肉露出来</small><br><span class="clolr-red">18积分</span></h5>
+	                   
+					</div>
+	               <div class="col-xs-2">     
+	               		<div class="pact-buy "><a href="">预约</a></div>	                                 
+					</div>
+	</div>
+	<div class="row fh5co-feature">
+	                <div class="col-xs-4 wm-card">
+							<figure class="fh5co-figure">
+								<img class="img-1 img-thumbnail" src="images/weimi.png" alt="">	
+							</figure>
+					</div>
+	                <div class="col-xs-6 text-sty">
+	                <h5 class="pact-text">去皮脂训练<br><small>减少皮脂，增强耐力<br>肌肉露出来</small><br><span class="clolr-red">18积分</span></h5>
+	                   
+					</div>
+	               <div class="col-xs-2">     
+	               		<div class="pact-buy2 "><a href="">满员</a></div>	                                 
+					</div>
+	</div>
+				
+</div>
+
+
+
+
+
+<!-- 各类礼品 -->
+<div class="container" id="tab2">
+
+	
+	<div class="row fh5co-feature">
+	                <div class="col-xs-4 wm-card">
+							<figure class="fh5co-figure">
+								<img class="img-1 img-thumbnail" src="images/weimi.png" alt="">	
+							</figure>
+					</div>
+	                <div class="col-xs-6 text-sty">
+	                <h5 class="pact-text">去皮脂训练<br><small>减少皮脂，增强耐力<br>肌肉露出来</small><br><span class="clolr-red">18积分</span></h5>
+	                   
+					</div>
+	               <div class="col-xs-2">     
+	               		<div class="pact-buy "><a href="">兑换</a></div>	                                 
+					</div>
+	</div>
+	<div class="row fh5co-feature">
+	                <div class="col-xs-4 wm-card">
+							<figure class="fh5co-figure">
+								<img class="img-1 img-thumbnail" src="images/weimi.png" alt="">	
+							</figure>
+					</div>
+	                <div class="col-xs-6 text-sty">
+	                <h5 class="pact-text">去皮脂训练<br><small>减少皮脂，增强耐力<br>肌肉露出来</small><br><span class="clolr-red">18积分</span></h5>
+	                   
+					</div>
+	               <div class="col-xs-2">     
+	               		<div class="pact-buy2 "><a href="">兑换</a></div>	                                 
+					</div>
+	</div>
+			
+</div>
+
+
+
+
+</body>
+</html>

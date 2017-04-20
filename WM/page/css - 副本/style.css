@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* CSS Document   #ff3838*/ 
+
+html,body{background:#f4f4f4;margin:0;padding:0;}
+header{margin:0;padding:0;height:50px;background-color:#c62f2f;overflow: hidden;}
+header .h4{text-align:center;padding:18px;margin:0;color:#fff}
+header a{display:inline-block;float:left;padding:10px;}
+.glyphicon{color: #fff;top: 16%;left: 5%;}
+.fh5co-feature{background:#fff;margin-top:1em;}
+.fh5co-feature-two{background: #fff;
+height: 300px;
+width: 95%;
+margin: 8em auto;}
+.fh5co-feature hr{margin-bottom: 0;};
+.fh5co-feature .fh5co-figure img {vertical-align: based;}
+.gag{margin-top:1%; }
+.gag-two{margin-top: 3%;}
+.center{text-align: center;}
+.p-y{
+    padding-top: 10%;
+}
+.m-y{
+    margin-top: 20%;
+}
+    // max-width: 100px;
+}
+}
+
+-webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);}
+
+.color-red{color: red;}
+// 字体加粗
+.font-thick{font-weight: bold;color: red;};
+.wm-footer{text-align: center;}
+  .border-r-1{
+    border-right: 1px solid #c62f2f;
+  }
+  .border-r-2{
+    border-right: 1px solid #080707;
+    color: #fff;
+    font-size: 2vh;
+  }
+
+
+
+// 评价点击后的颜色
+  .evaluate{color: red;
+font-size: 30px;}
+// 评价默认颜色
+  .evaluate2{color: #9f9191;
+font-size: 30px;}
+// -----------------------------------------------------------------公用样式----------------------------------------------------------------------------
+
+
+.wm-btn {
+    border-radius: 10%;
+    width: 18em;
+    height: 3em;
+    border: 1px solid #c62f2f;
+    background: #e83c3c;
+    line-height: 1em;
+    color: #fff;
+    clear: both;
+    max-width: 18em;
+    eight: 31px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+.wm-address{
+    height: 70px;
+
+}
+.add-bor{
+        width: 100%;
+    }
+.add1{
+        width: 30%;
+        // background-color: #ccc;
+        float: left;
+        padding-top: 6px;
+    }
+.add2{
+        width: 30%;
+        // background-color: #ccc;
+        float: left;
+            padding-top: 5px;
+    padding-left: 50px;
+}
+.add3{
+        width: 40%;
+        // background-color: #ccc;
+        float: left;
+}
+
+.ads-ico{
+    img{
+     width: 40%;
+    }
+ 
+}
+.ads{
+    font-size: 12px;
+    color: #696161;
+}
+
+.address-btn-on {
+    border-radius: 10%;
+    width: 6em;
+    height: 3em;
+    border: 1px solid #efe0e0;
+    background: #9b9696;
+    line-height: 3em;
+    color: #fff;
+    clear: both;
+    max-width: 18em;
+    eight: 31px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+.address-btn {
+    border-radius: 10%;
+    width: 6em;
+    height: 3em;
+    border: 1px solid #efe0e0;
+    background: #e83c3c;
+    line-height: 3em;
+    color: #fff;
+    clear: both;
+    max-width: 18em;
+    eight: 31px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+h5{color: color: #c62f2f;}
+.gray{color: #999;}
+
+
+// -----------------------------------------------------------------公用样式----------------------------------------------------------------------------
+
+.wm-card{padding:0;margin:0.5em 0;}
+.col-xs-4 {
+    width: 33.33333333%;
+    padding: 0;
+    margin: 0.5em 0;
+}
+.pag{    
+    width: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 22px;
+    font-size: 14px;}
+
+.text-sty{padding:0;}
+.text-sty p{color:red;margin-left: 25%;}
+.text-sty span{color: red;}
+.text-red{
+    color: #c62f2f;
+    margin-left: 25%;
+    margin-top: 10%;
+    line-height: 150%;
+}
+
+
+// .buy{border-radius: 10%;width: 4em;height: 2em;border:1px solid #c62f2f;background:#c62f2f;line-height:2em;text-align:center;clear:both;margin-top:2.5em;}
+.buy {
+    border-radius: 10%;
+    width: 4em;
+    height: 2em;
+    border: 1px solid #c62f2f;
+    background: #e83c3c;
+    line-height: 2em;
+    clear: both;
+    max-width: 6em;
+    eight: 31px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    // 按钮渐变
+    // background-image:linear-gradient(to top left, #6f0707, #ab1717,#dd1414,#fac5c5);
+
+}
+
+.buy a{color:#fff;}
+
+.img-thumbnail {
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 112%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.tag-img{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.font-st{
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    transform: rotate(45deg);
+    color: #fff;
+    font-size: 13px;
+
+}
+.buy-btn{ padding: 92% 0% 0% 0%;};
+
+/*转卡*/
+
+
+.glyphicon {
+    color: #fff;
+    top: 16%;
+    left: 5%;
+}
+.glyphicon {
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center{
+    text-align: center;
+    padding-top: 40px;
+}
+.homt-center{
+    text-align: center;
+    padding-top: 20px;
+}
+.form-control {
+    height: 45px;
+}
+.form-control2 {
+    height: 100px;
+width: 100%;
+text-align: center;
+}
+.form-control3 {
+    height: 30px;
+    width: 100%;
+}
+.control-two {
+	width: 100%;
+    height: 150px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.wm-btn {
+    border-radius: 10%;
+    width: 18em;
+    height: 3em;
+    border: 1px solid #c62f2f;
+    background: #e83c3c;
+    line-height: 1em;
+    color: #fff;
+    clear: both;
+    max-width: 18em;
+    eight: 31px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+// 约课
+.sel-wei{width: 90px;}
+.pact-text {
+    color: #c62f2f;
+    margin-left: 22%;
+    margin-top: 6%;
+    line-height: 147%;
+}
+.pact-buy {
+    border-radius: 10%;
+    width: 4em;
+    height: 2em;
+    border: 1px solid #c62f2f;
+    background: #e83c3c;
+    line-height: 2em;
+    clear: both;
+    max-width: 6em;
+    eight: 31px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -80%;
+}
+.pact-buy a{color: #fff;}
+
+.pact-buy2 {
+    border-radius: 10%;
+    width: 4em;
+    height: 2em;
+    border: 1px solid #bfbdbd;
+    background: #ccc;
+    line-height: 2em;
+    clear: both;
+    max-width: 6em;
+    eight: 31px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: -80%;
+}
+.pact-buy2 a{color: #fff;}
+
+.col-xs-2 {
+    width: 16.66666667%;
+    margin-top: 10%;
+}
+
+//我的意见
+.print-sty{text-align: center;}
+.btn-default{color: #333;
+background-color: #D7D4D4;
+border-color: #ae7272;
+font-size: 20px;
+padding-bottom: 5%;
+text-align: center;
+}
+.idea-sty{padding-top: 10px;
+color: #c62f2f;}
+
+
+.today-sty{
+    padding-top: 2px;
+}
+.today-font{
+    color: #c62f2f;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.mycard{
+    padding-top: 22%;
+}
+
+
+
+//数量
+.mydiv {
+text-align: center;
+margin:0 auto;
+line-height:20px;
+border:  2px solid #865D67;
+font-size: 12px;
+z-index:999;
+width: 300px;
+height: 200px;
+left:72%;
+top:20%;
+color: #fff;
+display:none;
+background-color: #694a4a;
+padding-top: 30px;
+}
+.sy_plus{font-size: 20px;}
+.sy_minus{font-size: 20px;}
+
+a{text-decoration: none;
+color: #fff;}
+a:hover{
+   color:#fff;
+}
+
+
+// 积分商城
+.redpacket-footer {
+  background-color: #ffb108; }
+  .redpacket-footer .footer-bt {
+  color: red;
+width: 179px;
+height: 50px;
+line-height: 50px;
+display: inline-block;
+text-align: center;
+position: relative;
+text-align: center;
+background-color: #ccc;
+     }
+    .redpacket-footer .footer-bt .icon-up {
+      position: absolute;
+      display: inline-block;
+      top: -13px;
+      left: 0;
+      right: 0; }
+    .redpacket-footer .footer-bt.active {
+      color: red; }
+      .redpacket-footer .footer-bt.active a {
+        color: red; }
+    .redpacket-footer .footer-bt a {
+      color: red; }
+  .redpacket-footer .border-r-1 {
+    border-right: 2px solid #bfb9b9; }
+
+
+
+
+
+.idea{width: 100px;height: 150px;float: left;padding: 0 2px;}
+
+
+
+
